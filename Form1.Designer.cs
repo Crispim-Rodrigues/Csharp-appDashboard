@@ -33,10 +33,10 @@ namespace GBM
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Form1));
             this.panel1 = new System.Windows.Forms.Panel();
             this.PnlNav = new System.Windows.Forms.Panel();
-            this.button3 = new System.Windows.Forms.Button();
-            this.button2 = new System.Windows.Forms.Button();
-            this.button1 = new System.Windows.Forms.Button();
-            this.BtnGeral = new System.Windows.Forms.Button();
+            this.ToT = new System.Windows.Forms.Button();
+            this.Apartados = new System.Windows.Forms.Button();
+            this.Portofer = new System.Windows.Forms.Button();
+            this.Home = new System.Windows.Forms.Button();
             this.panel2 = new System.Windows.Forms.Panel();
             this.comboBox1 = new System.Windows.Forms.ComboBox();
             this.label1 = new System.Windows.Forms.Label();
@@ -45,6 +45,8 @@ namespace GBM
             this.btnMinus = new FontAwesome.Sharp.IconButton();
             this.btnClose = new FontAwesome.Sharp.IconButton();
             this.Titulo = new System.Windows.Forms.Label();
+            this.panel4 = new System.Windows.Forms.Panel();
+            this.panelDesktop = new System.Windows.Forms.Panel();
             this.panel1.SuspendLayout();
             this.panel2.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
@@ -56,10 +58,10 @@ namespace GBM
             this.panel1.AutoSize = true;
             this.panel1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(24)))), ((int)(((byte)(30)))), ((int)(((byte)(54)))));
             this.panel1.Controls.Add(this.PnlNav);
-            this.panel1.Controls.Add(this.button3);
-            this.panel1.Controls.Add(this.button2);
-            this.panel1.Controls.Add(this.button1);
-            this.panel1.Controls.Add(this.BtnGeral);
+            this.panel1.Controls.Add(this.ToT);
+            this.panel1.Controls.Add(this.Apartados);
+            this.panel1.Controls.Add(this.Portofer);
+            this.panel1.Controls.Add(this.Home);
             this.panel1.Controls.Add(this.panel2);
             this.panel1.Dock = System.Windows.Forms.DockStyle.Left;
             this.panel1.Location = new System.Drawing.Point(0, 0);
@@ -76,93 +78,93 @@ namespace GBM
             this.PnlNav.Size = new System.Drawing.Size(2, 81);
             this.PnlNav.TabIndex = 3;
             // 
-            // button3
+            // ToT
             // 
-            this.button3.AutoSize = true;
-            this.button3.FlatAppearance.BorderSize = 0;
-            this.button3.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button3.Font = new System.Drawing.Font("Nirmala UI", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button3.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(126)))), ((int)(((byte)(249)))));
-            this.button3.Image = global::GBM.Properties.Resources.diagram;
-            this.button3.ImageAlign = System.Drawing.ContentAlignment.MiddleRight;
-            this.button3.Location = new System.Drawing.Point(0, 284);
-            this.button3.Margin = new System.Windows.Forms.Padding(2);
-            this.button3.Name = "button3";
-            this.button3.Padding = new System.Windows.Forms.Padding(20, 0, 20, 0);
-            this.button3.Size = new System.Drawing.Size(189, 43);
-            this.button3.TabIndex = 4;
-            this.button3.Text = "ToT";
-            this.button3.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.button3.TextImageRelation = System.Windows.Forms.TextImageRelation.TextBeforeImage;
-            this.button3.UseVisualStyleBackColor = true;
-            this.button3.Click += new System.EventHandler(this.Btn_Click);
-            this.button3.Leave += new System.EventHandler(this.Btn_Leave);
+            this.ToT.AutoSize = true;
+            this.ToT.FlatAppearance.BorderSize = 0;
+            this.ToT.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.ToT.Font = new System.Drawing.Font("Nirmala UI", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.ToT.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(126)))), ((int)(((byte)(249)))));
+            this.ToT.Image = global::GBM.Properties.Resources.diagram;
+            this.ToT.ImageAlign = System.Drawing.ContentAlignment.MiddleRight;
+            this.ToT.Location = new System.Drawing.Point(0, 284);
+            this.ToT.Margin = new System.Windows.Forms.Padding(2);
+            this.ToT.Name = "ToT";
+            this.ToT.Padding = new System.Windows.Forms.Padding(20, 0, 20, 0);
+            this.ToT.Size = new System.Drawing.Size(189, 43);
+            this.ToT.TabIndex = 4;
+            this.ToT.Text = "ToT";
+            this.ToT.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.ToT.TextImageRelation = System.Windows.Forms.TextImageRelation.TextBeforeImage;
+            this.ToT.UseVisualStyleBackColor = true;
+            this.ToT.Click += new System.EventHandler(this.Btn_Click);
+            this.ToT.Leave += new System.EventHandler(this.Btn_Leave);
             // 
-            // button2
+            // Apartados
             // 
-            this.button2.AutoSize = true;
-            this.button2.FlatAppearance.BorderSize = 0;
-            this.button2.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button2.Font = new System.Drawing.Font("Nirmala UI", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button2.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(126)))), ((int)(((byte)(249)))));
-            this.button2.Image = global::GBM.Properties.Resources.recusado;
-            this.button2.ImageAlign = System.Drawing.ContentAlignment.MiddleRight;
-            this.button2.Location = new System.Drawing.Point(0, 236);
-            this.button2.Margin = new System.Windows.Forms.Padding(2);
-            this.button2.Name = "button2";
-            this.button2.Padding = new System.Windows.Forms.Padding(20, 0, 20, 0);
-            this.button2.Size = new System.Drawing.Size(189, 43);
-            this.button2.TabIndex = 3;
-            this.button2.Text = "Apartados";
-            this.button2.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.button2.TextImageRelation = System.Windows.Forms.TextImageRelation.TextBeforeImage;
-            this.button2.UseVisualStyleBackColor = true;
-            this.button2.Click += new System.EventHandler(this.Btn_Click);
-            this.button2.Leave += new System.EventHandler(this.Btn_Leave);
+            this.Apartados.AutoSize = true;
+            this.Apartados.FlatAppearance.BorderSize = 0;
+            this.Apartados.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.Apartados.Font = new System.Drawing.Font("Nirmala UI", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.Apartados.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(126)))), ((int)(((byte)(249)))));
+            this.Apartados.Image = global::GBM.Properties.Resources.recusado;
+            this.Apartados.ImageAlign = System.Drawing.ContentAlignment.MiddleRight;
+            this.Apartados.Location = new System.Drawing.Point(0, 236);
+            this.Apartados.Margin = new System.Windows.Forms.Padding(2);
+            this.Apartados.Name = "Apartados";
+            this.Apartados.Padding = new System.Windows.Forms.Padding(20, 0, 20, 0);
+            this.Apartados.Size = new System.Drawing.Size(189, 43);
+            this.Apartados.TabIndex = 3;
+            this.Apartados.Text = "Apartados";
+            this.Apartados.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.Apartados.TextImageRelation = System.Windows.Forms.TextImageRelation.TextBeforeImage;
+            this.Apartados.UseVisualStyleBackColor = true;
+            this.Apartados.Click += new System.EventHandler(this.Btn_Click);
+            this.Apartados.Leave += new System.EventHandler(this.Btn_Leave);
             // 
-            // button1
+            // Portofer
             // 
-            this.button1.AutoSize = true;
-            this.button1.FlatAppearance.BorderSize = 0;
-            this.button1.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button1.Font = new System.Drawing.Font("Nirmala UI", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button1.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(126)))), ((int)(((byte)(249)))));
-            this.button1.Image = ((System.Drawing.Image)(resources.GetObject("button1.Image")));
-            this.button1.ImageAlign = System.Drawing.ContentAlignment.MiddleRight;
-            this.button1.Location = new System.Drawing.Point(0, 188);
-            this.button1.Margin = new System.Windows.Forms.Padding(2);
-            this.button1.Name = "button1";
-            this.button1.Padding = new System.Windows.Forms.Padding(20, 0, 20, 0);
-            this.button1.Size = new System.Drawing.Size(189, 43);
-            this.button1.TabIndex = 2;
-            this.button1.Text = "Portofer";
-            this.button1.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.button1.TextImageRelation = System.Windows.Forms.TextImageRelation.TextBeforeImage;
-            this.button1.UseVisualStyleBackColor = true;
-            this.button1.Click += new System.EventHandler(this.Btn_Click);
-            this.button1.Leave += new System.EventHandler(this.Btn_Leave);
+            this.Portofer.AutoSize = true;
+            this.Portofer.FlatAppearance.BorderSize = 0;
+            this.Portofer.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.Portofer.Font = new System.Drawing.Font("Nirmala UI", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.Portofer.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(126)))), ((int)(((byte)(249)))));
+            this.Portofer.Image = ((System.Drawing.Image)(resources.GetObject("Portofer.Image")));
+            this.Portofer.ImageAlign = System.Drawing.ContentAlignment.MiddleRight;
+            this.Portofer.Location = new System.Drawing.Point(0, 188);
+            this.Portofer.Margin = new System.Windows.Forms.Padding(2);
+            this.Portofer.Name = "Portofer";
+            this.Portofer.Padding = new System.Windows.Forms.Padding(20, 0, 20, 0);
+            this.Portofer.Size = new System.Drawing.Size(189, 43);
+            this.Portofer.TabIndex = 2;
+            this.Portofer.Text = "Portofer";
+            this.Portofer.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.Portofer.TextImageRelation = System.Windows.Forms.TextImageRelation.TextBeforeImage;
+            this.Portofer.UseVisualStyleBackColor = true;
+            this.Portofer.Click += new System.EventHandler(this.Btn_Click);
+            this.Portofer.Leave += new System.EventHandler(this.Btn_Leave);
             // 
-            // BtnGeral
+            // Home
             // 
-            this.BtnGeral.AutoSize = true;
-            this.BtnGeral.FlatAppearance.BorderSize = 0;
-            this.BtnGeral.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.BtnGeral.Font = new System.Drawing.Font("Nirmala UI", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.BtnGeral.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(126)))), ((int)(((byte)(249)))));
-            this.BtnGeral.Image = global::GBM.Properties.Resources.home;
-            this.BtnGeral.ImageAlign = System.Drawing.ContentAlignment.MiddleRight;
-            this.BtnGeral.Location = new System.Drawing.Point(0, 141);
-            this.BtnGeral.Margin = new System.Windows.Forms.Padding(2);
-            this.BtnGeral.Name = "BtnGeral";
-            this.BtnGeral.Padding = new System.Windows.Forms.Padding(20, 0, 20, 0);
-            this.BtnGeral.Size = new System.Drawing.Size(189, 43);
-            this.BtnGeral.TabIndex = 1;
-            this.BtnGeral.Text = "Visão Geral";
-            this.BtnGeral.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.BtnGeral.TextImageRelation = System.Windows.Forms.TextImageRelation.TextBeforeImage;
-            this.BtnGeral.UseVisualStyleBackColor = true;
-            this.BtnGeral.Click += new System.EventHandler(this.Btn_Click);
-            this.BtnGeral.Leave += new System.EventHandler(this.Btn_Leave);
+            this.Home.AutoSize = true;
+            this.Home.FlatAppearance.BorderSize = 0;
+            this.Home.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.Home.Font = new System.Drawing.Font("Nirmala UI", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.Home.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(126)))), ((int)(((byte)(249)))));
+            this.Home.Image = global::GBM.Properties.Resources.home;
+            this.Home.ImageAlign = System.Drawing.ContentAlignment.MiddleRight;
+            this.Home.Location = new System.Drawing.Point(0, 141);
+            this.Home.Margin = new System.Windows.Forms.Padding(2);
+            this.Home.Name = "Home";
+            this.Home.Padding = new System.Windows.Forms.Padding(20, 0, 20, 0);
+            this.Home.Size = new System.Drawing.Size(189, 43);
+            this.Home.TabIndex = 1;
+            this.Home.Text = "Visão Geral";
+            this.Home.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.Home.TextImageRelation = System.Windows.Forms.TextImageRelation.TextBeforeImage;
+            this.Home.UseVisualStyleBackColor = true;
+            this.Home.Click += new System.EventHandler(this.Btn_Click);
+            this.Home.Leave += new System.EventHandler(this.Btn_Leave);
             // 
             // panel2
             // 
@@ -275,12 +277,31 @@ namespace GBM
             this.Titulo.TabIndex = 0;
             this.Titulo.Text = "Visão Geral";
             // 
+            // panel4
+            // 
+            this.panel4.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(36)))), ((int)(((byte)(41)))), ((int)(((byte)(63)))));
+            this.panel4.Dock = System.Windows.Forms.DockStyle.Top;
+            this.panel4.Location = new System.Drawing.Point(191, 35);
+            this.panel4.Name = "panel4";
+            this.panel4.Size = new System.Drawing.Size(807, 7);
+            this.panel4.TabIndex = 2;
+            // 
+            // panelDesktop
+            // 
+            this.panelDesktop.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.panelDesktop.Location = new System.Drawing.Point(191, 42);
+            this.panelDesktop.Name = "panelDesktop";
+            this.panelDesktop.Size = new System.Drawing.Size(807, 609);
+            this.panelDesktop.TabIndex = 3;
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(46)))), ((int)(((byte)(51)))), ((int)(((byte)(73)))));
             this.ClientSize = new System.Drawing.Size(998, 651);
+            this.Controls.Add(this.panelDesktop);
+            this.Controls.Add(this.panel4);
             this.Controls.Add(this.panel3);
             this.Controls.Add(this.panel1);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
@@ -308,15 +329,17 @@ namespace GBM
         private System.Windows.Forms.ComboBox comboBox1;
         private System.Windows.Forms.Label label1;
         private System.Windows.Forms.PictureBox pictureBox1;
-        private System.Windows.Forms.Button BtnGeral;
-        private System.Windows.Forms.Button button3;
-        private System.Windows.Forms.Button button2;
-        private System.Windows.Forms.Button button1;
+        private System.Windows.Forms.Button Home;
+        private System.Windows.Forms.Button ToT;
+        private System.Windows.Forms.Button Apartados;
+        private System.Windows.Forms.Button Portofer;
         private System.Windows.Forms.Panel PnlNav;
         private System.Windows.Forms.Panel panel3;
         private System.Windows.Forms.Label Titulo;
         private FontAwesome.Sharp.IconButton btnMinus;
         private FontAwesome.Sharp.IconButton btnClose;
+        private System.Windows.Forms.Panel panel4;
+        private System.Windows.Forms.Panel panelDesktop;
     }
 }
 

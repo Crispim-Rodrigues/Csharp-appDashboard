@@ -59,10 +59,46 @@
     <Compile Include="Form1.Designer.cs">
       <DependentUpon>Form1.cs</DependentUpon>
     </Compile>
+    <Compile Include="UIL\FormApartados.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="UIL\FormApartados.Designer.cs">
+      <DependentUpon>FormApartados.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UIL\FormHome.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="UIL\FormHome.Designer.cs">
+      <DependentUpon>FormHome.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UIL\FormPortofer.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="UIL\FormPortofer.Designer.cs">
+      <DependentUpon>FormPortofer.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UIL\FormToT.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="UIL\FormToT.Designer.cs">
+      <DependentUpon>FormToT.cs</DependentUpon>
+    </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <EmbeddedResource Include="Form1.resx">
       <DependentUpon>Form1.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UIL\FormApartados.resx">
+      <DependentUpon>FormApartados.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UIL\FormHome.resx">
+      <DependentUpon>FormHome.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UIL\FormPortofer.resx">
+      <DependentUpon>FormPortofer.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UIL\FormToT.resx">
+      <DependentUpon>FormToT.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>
@@ -108,6 +144,9 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="Resources\metro.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="DALL\" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
