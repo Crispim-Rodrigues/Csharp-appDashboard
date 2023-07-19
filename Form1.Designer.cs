@@ -38,7 +38,7 @@ namespace GBM
             this.Portofer = new System.Windows.Forms.Button();
             this.Home = new System.Windows.Forms.Button();
             this.panel2 = new System.Windows.Forms.Panel();
-            this.comboBox1 = new System.Windows.Forms.ComboBox();
+            this.Cbox1 = new System.Windows.Forms.ComboBox();
             this.label1 = new System.Windows.Forms.Label();
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
             this.panel3 = new System.Windows.Forms.Panel();
@@ -168,7 +168,7 @@ namespace GBM
             // 
             // panel2
             // 
-            this.panel2.Controls.Add(this.comboBox1);
+            this.panel2.Controls.Add(this.Cbox1);
             this.panel2.Controls.Add(this.label1);
             this.panel2.Controls.Add(this.pictureBox1);
             this.panel2.Dock = System.Windows.Forms.DockStyle.Top;
@@ -178,24 +178,25 @@ namespace GBM
             this.panel2.Size = new System.Drawing.Size(191, 141);
             this.panel2.TabIndex = 0;
             // 
-            // comboBox1
+            // Cbox1
             // 
-            this.comboBox1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(24)))), ((int)(((byte)(30)))), ((int)(((byte)(54)))));
-            this.comboBox1.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
-            this.comboBox1.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.comboBox1.Font = new System.Drawing.Font("Microsoft Sans Serif", 7.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.comboBox1.ForeColor = System.Drawing.Color.White;
-            this.comboBox1.FormattingEnabled = true;
-            this.comboBox1.Items.AddRange(new object[] {
+            this.Cbox1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(24)))), ((int)(((byte)(30)))), ((int)(((byte)(54)))));
+            this.Cbox1.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
+            this.Cbox1.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.Cbox1.Font = new System.Drawing.Font("Microsoft Sans Serif", 7.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.Cbox1.ForeColor = System.Drawing.Color.White;
+            this.Cbox1.FormattingEnabled = true;
+            this.Cbox1.Items.AddRange(new object[] {
+            "Total",
             "01x07",
             "07x13",
             "13x19",
             "19x01"});
-            this.comboBox1.Location = new System.Drawing.Point(47, 97);
-            this.comboBox1.Margin = new System.Windows.Forms.Padding(0);
-            this.comboBox1.Name = "comboBox1";
-            this.comboBox1.Size = new System.Drawing.Size(92, 21);
-            this.comboBox1.TabIndex = 2;
+            this.Cbox1.Location = new System.Drawing.Point(47, 97);
+            this.Cbox1.Margin = new System.Windows.Forms.Padding(0);
+            this.Cbox1.Name = "Cbox1";
+            this.Cbox1.Size = new System.Drawing.Size(92, 21);
+            this.Cbox1.TabIndex = 1;
             // 
             // label1
             // 
@@ -326,7 +327,7 @@ namespace GBM
 
         private System.Windows.Forms.Panel panel1;
         private System.Windows.Forms.Panel panel2;
-        private System.Windows.Forms.ComboBox comboBox1;
+        private System.Windows.Forms.ComboBox Cbox1;
         private System.Windows.Forms.Label label1;
         private System.Windows.Forms.PictureBox pictureBox1;
         private System.Windows.Forms.Button Home;

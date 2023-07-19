@@ -15,16 +15,15 @@ namespace GBM
     public partial class Form1 : Form
     {
         private Form activeForm = null; // Variável para armazenar o formulário ativo
-
-
+        
         public Form1()
         {
             InitializeComponent();
-            Size = new Size(800, 600);
+            Size = new Size(950, 600);
             PnlNav.Height = Home.Height;
             PnlNav.Top = Home.Top;
             PnlNav.Left = Home.Left;
-            OpenChildForm(new FormHome());
+            OpenChildForm(new FormHome()); 
         }
 
         private void OpenChildForm(Form childForm)
@@ -51,7 +50,8 @@ namespace GBM
 
         private void Form1_Load(object sender, EventArgs e)
         {
-
+     
+            Cbox1.SelectedIndex = 0;
         }
 
         private void Btn_Click(object sender, EventArgs e)
@@ -98,18 +98,6 @@ namespace GBM
         {
             WindowState = FormWindowState.Minimized;
         }
-
-        private void btnMaxMin_Click(object sender, EventArgs e)
-        {
-            if (WindowState == FormWindowState.Maximized)
-            {
-                WindowState = FormWindowState.Normal;
-            }
-            else
-            {
-                WindowState = FormWindowState.Maximized;
-            }
-        }
         //Drag Form
         [DllImport("user32.DLL", EntryPoint = "ReleaseCapture")]
         private extern static void ReleaseCapture();
@@ -122,5 +110,6 @@ namespace GBM
             ReleaseCapture();
             SendMessage(this.Handle, 0x112, 0xf012, 0);
         }
+
     }
 }
